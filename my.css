@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(https://coderkube.com/wp-content/uploads/2017/08/filter-bg.jpg);
+    background-color: rgb(157, 150, 150);
+    background-size: auto;
+}
+
+nav {
+    position: fixed;
+    color: rgb(218, 129, 57);
+    background-color: rgb(30, 17, 130);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8.5vh;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+    color: aquamarine;
+    font-size: 2em;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    margin: 0 24px;
+    /* justify-content:flex-end; */
+
+}
+
+nav ul li a:hover {
+    color: rgb(59, 227, 13);
+    font-size: 2.0rem;
+    text-shadow: 0 0 10px rgb(73, 246, 25),
+        0 0 20px rgb(59, 227, 13),
+        0 0 30px rgb(59, 227, 13),
+        0 0 40px rgb(59, 227, 13),
+        0 0 70px rgb(59, 227, 13),
+        0 0 80px rgb(59, 227, 13),
+        0 0 100px rgb(59, 227, 13),
+        0 0 150px rgb(59, 227, 13);
+}
+
+nav ul li a {
+    color: rgb(160, 185, 208);
+    text-decoration: none;
+
+}
+
+.left {
+
+    font-size: 3em;
+    justify-content:center;
+    display:flex;
+
+}
+.left span{
+    color: gainsboro;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 400px 90;
+    padding: 100px 5% 35px;
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.l {
+    font-size: 3rem;
+    color: rgb(134, 233, 111);
+}
+
+.l .buttons {
+    padding: 40px 0;
+    justify-content: space-between;
+    width: 350px;
+    /* height: 35px; */
+    display: flex;
+}
+
+.buttons .btm {
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(69, 223, 229);
+    color: rgb(15, 14, 14);
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: rgb(9, 69, 220);
+    border-radius: 28px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btm:hover {
+    background-color: rgb(37, 58, 246);
+    color: rgb(225, 245, 250);
+    text-shadow: 0 0 10px rgb(244, 246, 243),
+        0 0 20px rgb(244, 246, 243),
+        0 0 30px rgb(244, 246, 243),
+        0 0 40px rgb(244, 246, 243),
+        0 0 70px rgb(244, 246, 243),
+        0 0 80px rgb(244, 246, 243),
+        0 0 100px rgb(244, 246, 243),
+        0 0 150px rgb(244, 246, 243);
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.r {
+    width: 80%;
+}
+
+img {
+    /* border-radius: 90%; */
+    width: 80%;
+}
+
+#element {
+    color: rgb(240, 6, 6);
+    text-shadow: 3px 1px rgb(10, 5, 13);
+}
+
+.about h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0 10px;
+    color: rgb(87, 196, 18);
+    text-shadow: 3px 3px;
+
+}
+
+.about p {
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    width: 90%;
+    height: 30%;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    margin-bottom: 0px;
+    color: rgb(235, 254, 105);
+    text-align: center;
+    left: 90px;
+}
